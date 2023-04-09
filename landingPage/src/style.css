@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+/*header elements*/
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    margin-top: 32px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    padding: 8px;
+    margin: 24px;
+}
+
+li { 
+    cursor: pointer;
+}
+/*content1 elements*/
+
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 48px;
+    margin-right: 48px;
+    gap: 16px;
+}
+
+.dota-clash {
+    width: 850px;
+    height: 600px;
+    margin-right: 48px;
+}
+
+/*content2 elements*/
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.content2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.content2-containers {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;   
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.sml-img {
+    width: 250px;
+    height: 250px;
+}
